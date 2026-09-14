@@ -1,0 +1,11 @@
+{
+  "subdomain": "crisisweave",
+  "domain": "thedev.me",
+  "email_or_discord": "useproqr@gmail.com",
+  "github_username": "davidmariscalf",
+  "description": "Public website for the CrisisWeave crisis information and recovery coordination engineering prototype.",
+  "records": {
+    "CNAME": ["crisisweave.netlify.app"]
+  },
+  "proxied": false
+}
