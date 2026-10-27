@@ -1,98 +1,13 @@
-# <p align="center"> *.thedev.me - Free Subdomains </p>
-**<p align="center"> Get your free `{name}.thedev.me` subdomain </p>**
+# Banana Bank + Banana Check — t·Dots 2026
 
-![header](media/header_round.png)
-<p align="center">
-    <img src="https://img.shields.io/github/stars/thedev-me/register?label=stars&style=for-the-badge&color=FFD700" alt="GitHub stars">&nbsp;&nbsp;
-    <img src="https://img.shields.io/github/directory-file-count/thedev-me/register/domains?label=domains&style=for-the-badge&color=4CAF50" alt="Domains">&nbsp;&nbsp;
-    <img src="https://img.shields.io/github/issues-pr/thedev-me/register?label=Pull%20Requests&style=for-the-badge&color=FFA500" alt="GitHub pull requests">&nbsp;&nbsp;
-</p>
+Entrega de David Mariscal Fernández para el hackathon t·Dots.
 
+Este repositorio contiene una copia sin modificaciones del ZIP incluido en el intento de entrega del 11 de octubre de 2026 a las 22:58:11 (hora peninsular española). La copia se ha recuperado de los registros originales de la entrega, no se ha rehacido después del plazo.
 
-## How to Get Your Subdomain
+Archivo: `Banana_Bank_David_Mariscal_Fernandez_Propuesta.zip`
+Tamaño: 2.146.431 bytes
+SHA-256: `a78aabfdaf2c4122c7442cf144d092cd0943491375fcda4d9de6f51838801285`
 
-1. 🌟 Fork this repository
-2. 📰 Read the entire README and review our [Terms of Service](TERMS.md)
-3. 🗄️ Create a JSON file and name it `yoursubdomain.thedev.me.json` in `./domains` of your forked repo.
-4. ✍️ Fill in the JSON file (format and instructions below). Make sure the JSON is valid with no trailing commas.
-5. 🫷 Open a pull request with your changes.
-6. 🤖 Automated checks will run and report any JSON errors. (First-time contributors await a manual trigger.)
-7. ✅ After manual review and approval, your subdomain will be live within minutes.
+Incluye código, pruebas, documentación técnica, presentación PDF y registro de colaboración con IA. Ese registro se identifica dentro del paquete como una reconstrucción y no como una exportación original íntegra de todas las sesiones de IA. El paquete se comparte tal como quedó en el intento original; la disponibilidad en GitHub es posterior a la fecha de entrega y no representa una entrega exitosa el día 11.
 
-> [!NOTE]
-> Passing automated checks does NOT guarantee approval. All submissions undergo manual review to ensure quality and compliance. Read our [Terms of Service](TERMS.md).
-
-
-## Supported Record Types
-
-- We support **A, AAAA, CNAME, NS, MX, and TXT** record types.
-
-
-## JSON Formatting
-
-To register your subdomain, create a new JSON file in the `./domains` directory. The filename should be in the following format, `yoursubdomain.thedev.me.json`.
-
-Use the following structure for your JSON file.
-
-> [!IMPORTANT]  
-> Keep only the necessary records, update their values as needed, and <strong>DELETE</strong> the ones you do not need from the JSON. [Learn more about DNS records.](https://www.cloudflare.com/learning/dns/dns-records/)
-
-> [!IMPORTANT]
-> Ensure your JSON file is valid with NO trailing commas. You can easily check the format validity [here](https://jsonlint.com).
-
-Template:
-```json
-{
-  "subdomain": "yoursubdomain",
-  "domain": "thedev.me",
-  "email_or_discord": "user@example.com or user",
-  "github_username": "user",
-  "description": "A brief description of the purpose of the subdomain",
-
-  "records": {
-    "A":     ["1.0.0.1", "1.0.0.2"],
-    "AAAA":  ["2000:db8::1", "2000:db8::2"],
-    "CNAME": ["example.com"],
-    "NS":    ["ns1.example.com", "ns2.example.com"],
-    "MX":    ["mail1.example.com","mail2.example.com"],
-    "TXT":   ["v=spf1 include:_spf.example.com ~all"]
-  },
-
-  "proxied": true
-}
-```
-
-
-## Fields Explanation
-
-- `subdomain`: Your desired subdomain (e.g., "myproject" for myproject.thedev.me)
-- `domain`: Always "thedev.me"
-- `email_or_discord`: Your email or Discord username to protect your email from web scraping
-- `github_username`: Your GitHub username
-- `description`: A brief description of your subdomain's purpose
-- `records`: DNS records for your subdomain. Only keep the ones you need. [Learn more](https://www.cloudflare.com/learning/dns/dns-records/).
-- `proxied`: Set to `true` if you want to use Cloudflare's proxy, `false` otherwise.
-
-
-## Terms and Conditions
-
-By using this service, you agree to be bound by our [Terms of Service](TERMS.md). Please review them carefully.
-
-
-## License
-
-MIT License
-
-
-## Support
-
-If you need help or have questions, please open an issue in this repository or send an email to contact@thedev.me
-
-
-## Featured
-
-If you're interested in registering subdomains similar to `*.thedev.me`, consider exploring these services:
-- [Open Domains](https://open-domains.net)
-- [is-a.dev](https://www.is-a.dev)
-- [thedev.id](https://thedev.id)
-- [js.org](https://js.org)
+Esta rama es independiente de la rama principal del repositorio que la aloja.
